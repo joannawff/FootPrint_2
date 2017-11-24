@@ -18,8 +18,8 @@ public class ProjectInfoData
         // TODO: 在此处添加构造函数逻辑
         //
         con = new SqlConnection();
-        //con.ConnectionString = "User ID=LAPTOP-MH6A9KP3\\joann,Initial Catalog=FootPrintDB;Data Source=(localdb)\\MSSQLLocalDB;Password=1q2q3q4q;Integrated Security=True";
-        con.ConnectionString = "Initial Catalog=FootPrintDB;Data Source=(localdb)\\MSSQLLocalDB;Integrated Security=True";
+        con.ConnectionString = "Data Source = (localdb)\\MSSQLLocalDB; AttachDbFilename=|DataDirectory|\\FootPrint.mdf; Integrated Security = True";
+        //con.ConnectionString = "Initial Catalog=FootPrintDB;Data Source=(localdb)\\MSSQLLocalDB;Integrated Security=True";
 
     }
     public DataTable GetDT() {
